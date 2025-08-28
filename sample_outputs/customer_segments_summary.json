@@ -1,0 +1,48 @@
+{
+  "customer_segmentation_results": {
+    "total_customers": 992,
+    "segments": {
+      "Champions": {
+        "count": 149,
+        "percentage": 15.0,
+        "avg_revenue": 5420.50,
+        "characteristics": "High recency, frequency, and monetary scores",
+        "strategy": "Reward and retain with VIP programs"
+      },
+      "Loyal_Customers": {
+        "count": 248,
+        "percentage": 25.0,
+        "avg_revenue": 2180.75,
+        "characteristics": "Good frequency and monetary, moderate recency",
+        "strategy": "Upsell and cross-sell opportunities"
+      },
+      "Potential_Loyalists": {
+        "count": 198,
+        "percentage": 20.0,
+        "avg_revenue": 1650.25,
+        "characteristics": "Recent customers with growth potential",
+        "strategy": "Engagement campaigns to increase frequency"
+      },
+      "At_Risk": {
+        "count": 179,
+        "percentage": 18.0,
+        "avg_revenue": 1890.40,
+        "characteristics": "Previously valuable, declining engagement",
+        "strategy": "Retention campaigns and personalized offers"
+      },
+      "Lost_Customers": {
+        "count": 218,
+        "percentage": 22.0,
+        "avg_revenue": 980.15,
+        "characteristics": "Low recency, frequency, and monetary scores",
+        "strategy": "Win-back campaigns with special incentives"
+      }
+    },
+    "business_insights": {
+      "high_value_segments": ["Champions", "Loyal_Customers"],
+      "growth_opportunities": ["Potential_Loyalists"],
+      "retention_focus": ["At_Risk", "Lost_Customers"],
+      "revenue_concentration": "40% of customers generate 70% of revenue"
+    }
+  }
+}

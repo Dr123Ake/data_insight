@@ -1,0 +1,72 @@
+{
+  "demand_forecast_results": {
+    "forecast_period": "2024-Q1 to 2024-Q4",
+    "model_performance": {
+      "mae": 12.5,
+      "rmse": 18.3,
+      "mape": 8.7
+    },
+    "quarterly_forecasts": {
+      "2024-Q1": {
+        "predicted_revenue": 687500,
+        "confidence_interval": [625000, 750000],
+        "growth_rate": 0.15
+      },
+      "2024-Q2": {
+        "predicted_revenue": 790625,
+        "confidence_interval": [718750, 862500],
+        "growth_rate": 0.15
+      },
+      "2024-Q3": {
+        "predicted_revenue": 909219,
+        "confidence_interval": [826563, 991875],
+        "growth_rate": 0.15
+      },
+      "2024-Q4": {
+        "predicted_revenue": 1045602,
+        "confidence_interval": [950547, 1140656],
+        "growth_rate": 0.15
+      }
+    },
+    "category_forecasts": {
+      "Electronics": {
+        "current_share": 0.23,
+        "predicted_q4_revenue": 240488,
+        "trend": "growing"
+      },
+      "Clothing": {
+        "current_share": 0.20,
+        "predicted_q4_revenue": 209120,
+        "trend": "stable"
+      },
+      "Home_Garden": {
+        "current_share": 0.19,
+        "predicted_q4_revenue": 198664,
+        "trend": "growing"
+      },
+      "Books": {
+        "current_share": 0.18,
+        "predicted_q4_revenue": 188208,
+        "trend": "declining"
+      },
+      "Sports": {
+        "current_share": 0.18,
+        "predicted_q4_revenue": 188208,
+        "trend": "stable"
+      }
+    },
+    "seasonal_patterns": {
+      "peak_months": ["November", "December"],
+      "low_months": ["January", "February"],
+      "holiday_impact": 0.40,
+      "back_to_school_impact": 0.25
+    },
+    "business_recommendations": [
+      "Increase Electronics inventory by 25% for Q4",
+      "Launch retention campaigns for Books category",
+      "Prepare for 40% sales increase during holiday season",
+      "Focus marketing spend on Champions and Loyal segments",
+      "Implement dynamic pricing for peak demand periods"
+    ]
+  }
+}

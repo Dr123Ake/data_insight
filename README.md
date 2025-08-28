@@ -1,6 +1,38 @@
 # Consumer Analytics Dashboard
 
+A comprehensive data science project demonstrating customer analytics and demand forecasting capabilities for P&G internship application.
+
+## 🚀 Live Demo
+
+![Dashboard Preview](images/dashboard_preview.svg)
+
+**Try it yourself**: Run `streamlit run app.py` and visit http://localhost:8501
+
 ## 🎯 Project Overview
+
+This project showcases end-to-end data science skills through:
+- Synthetic customer data generation (5,000 transactions, 992 customers)
+- Customer segmentation using RFM analysis
+- Demand forecasting with trend analysis
+- Interactive dashboard with business insights
+
+## 📊 Demo Results
+
+### Key Metrics:
+- **Total Revenue**: $2.5M+ across all categories
+- **Customer Segments**: 5 distinct groups (Champions, Loyal, Potential, At Risk, Lost)
+- **Top Category**: Electronics ($575K, 23% market share)
+- **Growth Rate**: 15% projected quarterly growth
+
+### Customer Segmentation Results:
+- **Champions (15%)**: High-value customers generating 5x more revenue
+- **Loyal Customers (25%)**: Stable revenue contributors
+- **Potential Loyalists (20%)**: Growth opportunities for upselling
+- **At Risk (18%)**: Require retention campaigns
+- **Lost Customers (22%)**: Win-back campaign targets
+
+[📋 View Complete Demo Results](DEMO_RESULTS.md)
+
 Data analytics project demonstrating customer segmentation and demand forecasting for consumer goods industry.
 
 ## 🚀 Quick Start
