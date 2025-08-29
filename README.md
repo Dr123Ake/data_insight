@@ -95,8 +95,5 @@ data-analytics-demo/
 - **Data Visualization**: Interactive dashboards, business storytelling
 - **Software Engineering**: Clean code, documentation, version control
 
-## 📞 Contact
-Developed for P&G Data Science Internship Application
-
 ---
 *This project uses synthetic data to demonstrate analytical capabilities while maintaining data privacy and security.*
